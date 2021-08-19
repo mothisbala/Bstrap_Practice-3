@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Practice</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color:lightblue">
+<div class="container">
+  <h2>Course Registration Form</h2>
+  <form>
+	<div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name">
+    </div>
+	<div class="form-group">
+      <label for="Roll no">Roll No:</label>
+      <input type="text" class="form-control" id="roll no" placeholder="Enter Roll no">
+    </div>
+	<div class="radio">
+		<label for="gender">Gender:</label>
+		<label><input type="radio"name="radio">Male</label>
+		<label><input type="radio"name="radio">female</label>
+		<label><input type="radio"name="radio">Others</label>
+	</div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+	<div class="checkbox">
+		<label for="course">Course:</label>
+		<label><input type="checkbox"name="checkbox">C</label>
+        <label><input type="checkbox"name="checkbox">C++</label>
+        <label><input type="checkbox"name="checkbox">Java</label>
+        <label><input type="checkbox"name="checkbox">Python</label>
+	</div>
+	<div class="radio">
+		<label for="department">Department:</label>
+		<label><input type="radio"name="radio">IT</label>
+        <label><input type="radio"name="radio">CSE</label>
+        <label><input type="radio"name="radio">EEE</label>
+        <label><input type="radio"name="radio">ECE</label>
+	</div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit"value="submit"class="btn btn-default">Submit</button>
+  </form>
+</div>
+</body>
+</html>
